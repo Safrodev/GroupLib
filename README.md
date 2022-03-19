@@ -88,3 +88,7 @@ public class ExampleMod extends ModInitializer {
     public void onInitialize() {}
 }
 ````
+
+# Questions & Issues
+
+If you have a question, issue, or any other thought please let me know by opening an Issue or on my [Discord](https://discord.gg/muAnYRGXrq).
