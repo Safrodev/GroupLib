@@ -4,7 +4,20 @@ GroupLib is a lightweight ItemGroup Library for Fabric 1.18.2+. GroupLib allows 
 
 ## Setup
 
-
+Add the following to your mod's ``build.gradle`` file:
+```
+repositories {
+	maven {
+		url 'https://jitpack.io'
+	}
+}
+```
+```
+dependencies {
+	        modImplementation "com.github.Safrodev:GroupLib:VERSION"
+	}
+```
+Replace ``VERSION`` with the latest (or preferred) version of the lib. You can find the versions here: https://github.com/Safrodev/GroupLib/releases
 
 ## Examples
 
