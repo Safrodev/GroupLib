@@ -31,6 +31,10 @@ public class ExampleGroup extends ExtendedItemGroup {
         super("example");
     }
     
+    public ItemStack createIcon() {
+    	return new ItemStack(Items.APPLE);
+    }
+    
     public boolean hasSearchBar() {
         return true;
     }
@@ -47,6 +51,10 @@ public class ExampleGroup2 extends ExtendedItemGroup {
 
     public ExampleGroup(String name) {
         super(name);
+    }
+    
+    public ItemStack createIcon() {
+    	return new ItemStack(Items.SPYGLASS);
     }
     
     public boolean hasSearchBar() {
