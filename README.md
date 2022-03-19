@@ -14,7 +14,7 @@ repositories {
 ```
 ```
 dependencies {
-	        modImplementation "com.github.Safrodev:GroupLib:VERSION"
+	        modImplementation include("com.github.Safrodev:GroupLib:VERSION")
 	}
 ```
 Replace ``VERSION`` with the latest (or preferred) version of the lib. You can find the versions here: https://github.com/Safrodev/GroupLib/releases
