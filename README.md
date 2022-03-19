@@ -2,7 +2,7 @@
 
 GroupLib is a lightweight ItemGroup Library for Fabric 1.18.2+. GroupLib allows Mod Developers to further customize their ItemGroups.
 
-## Setup
+# Setup
 
 Add the following to your mod's ``build.gradle`` file:
 ```
@@ -19,11 +19,14 @@ dependencies {
 ```
 Replace ``VERSION`` with the latest (or preferred) version of the lib. You can find the versions here: https://github.com/Safrodev/GroupLib/releases
 
-## Examples
+# Examples
 
-### ItemGroup Class
+## ItemGroup Class
 
-Example 1
+### Example 1
+
+This example creates a simple ItemGroup with an Apple icon. It contains a search bar and a custom ItemGroup texture.
+
 ````java
 public class ExampleGroup extends ExtendedItemGroup {
 
@@ -45,7 +48,10 @@ public class ExampleGroup extends ExtendedItemGroup {
 }
 ````
 
-Example 2
+### Example 2
+
+In this example, an ItemGroup with a Spyglass icon is created. It contains a search bar with a width of 100 and a lime green title color.
+
 ````java
 public class ExampleGroup2 extends ExtendedItemGroup {
 
@@ -70,8 +76,9 @@ public class ExampleGroup2 extends ExtendedItemGroup {
     }
 }
 ````
+See ``ExtendedItemGroup`` for the full list of available methods and constructors.
 
-### ItemGroup Registry
+## ItemGroup Registry
 ````java
 public class ExampleMod extends ModInitializer {
     public static final ExtendedItemGroup EXAMPLE_GROUP = new ExampleGroup();
